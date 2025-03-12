@@ -20,4 +20,4 @@ jobs:
 
     - name: Deploy to DigitalOcean
       run: |
-        ssh root@159.65.222.87 "cd /erkey/qocu/project && git pull origin main && ./deploy.sh"
+        ssh root@159.65.222.87 "cd /erkey/project && git pull origin main && ./deploy.sh"
